@@ -170,13 +170,13 @@ ShudhiNetra-Nirikshak/
     <tr>
       <td align="center">
         <img src="assets/team/shuddhinetra_logo.jpeg" width="100" style="border-radius: 50%;"><br>
-        <b>Prathamsingh Patil</b><br>
-        <i>AI & Backend Lead</i>
+        <b>Narendra Wakhare</b><br>
+        <i>Team Lead</i>
       </td>
       <td align="center">
         <img src="assets/team/terminators_logo.jpeg" width="100" style="border-radius: 50%;"><br>
-        <b>Narendra Wakhare</b><br>
-        <i>Frontend & DevOps Lead</i>
+        <b>Anantha Atole</b><br>
+        <i>Full Stack Developer</i>
       </td>
        <td align="center">
         <img src="https://via.placeholder.com/100" width="100" style="border-radius: 50%;"><br>
@@ -243,3 +243,4 @@ npm start
 ---
 
 > *"Swachhta is not just a mission, it is a lifestyle."* 🌱
+
