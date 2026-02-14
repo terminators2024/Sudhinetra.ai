@@ -169,36 +169,36 @@ ShudhiNetra-Nirikshak/
   <table>
     <tr>
       <td align="center">
-        <img src="assets/team/shuddhinetra_logo.jpeg" width="100" style="border-radius: 50%;"><br>
+        <img src="assets/members/Narendra.jpg" width="100" style="border-radius: 50%;"><br>
         <b>Narendra Wakhare</b><br>
         <i>Team Lead</i>
       </td>
       <td align="center">
-        <img src="assets/team/terminators_logo.jpeg" width="100" style="border-radius: 50%;"><br>
-        <b>Anantha Atole</b><br>
+        <img src="assets/members/Ananta.jpg" width="100" style="border-radius: 50%;"><br>
+        <b>Ananta Atole</b><br>
         <i>Full Stack Developer</i>
       </td>
        <td align="center">
-        <img src="https://via.placeholder.com/100" width="100" style="border-radius: 50%;"><br>
-        <b>Team Member 3</b><br>
-        <i>[Role]</i>
+        <img src="assets/members/Tushar.jpg" width="100" style="border-radius: 50%;"><br>
+        <b>Tushar Bendre</b><br>
+        <i>Backend Developer</i>
       </td>
     </tr>
      <tr>
       <td align="center">
-        <img src="https://via.placeholder.com/100" width="100" style="border-radius: 50%;"><br>
-        <b>Team Member 4</b><br>
-        <i>[Role]</i>
+        <img src="assets/members/Hrishikesh.jpg" width="100" style="border-radius: 50%;"><br>
+        <b>Hrishikesh Gurap</b><br>
+        <i>Frontend Developer</i>
       </td>
       <td align="center">
-        <img src="https://via.placeholder.com/100" width="100" style="border-radius: 50%;"><br>
-        <b>Team Member 5</b><br>
-        <i>[Role]</i>
+        <img src="assets/members/Yash.jpg" width="100" style="border-radius: 50%;"><br>
+        <b>Yash Gorde</b><br>
+        <i>Data Engineer</i>
       </td>
        <td align="center">
-        <img src="https://via.placeholder.com/100" width="100" style="border-radius: 50%;"><br>
-        <b>Team Member 6</b><br>
-        <i>[Role]</i>
+        <img src="assets/members/Mayuri.jpg" width="100" style="border-radius: 50%;"><br>
+        <b>Mayuri</b><br>
+        <i>R&D and Documentation</i>
       </td>
     </tr>
   </table>
