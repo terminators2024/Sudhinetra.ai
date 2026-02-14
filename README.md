@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="assets/team/shuddhinetra_logo.jpeg" alt="ShuddhiNetra Logo" width="200" height="auto" />
+  <img src="ShudhiNetra%20Nirikshak.AI/assets/team/shuddhinetra_logo.jpeg" alt="ShuddhiNetra Logo" width="200" height="auto" />
   <br/>
 
   # 🏆 ShuddhiNetra Nirikshak
@@ -17,7 +17,7 @@
   <p>
     <a href="https://shuddinetrasih1751.icipamrutvahini.in/"><b>🌐 Live Prototype</b></a> •
     <a href="https://youtu.be/AvnI_TFHcHY?si=vH3_ij6yC5JE1xNs"><b>📺 Video Demo</b></a> •
-    <a href="assets/docs/presentation.pptx"><b>📊 Pitch Deck</b></a> •
+    <a href="ShudhiNetra%20Nirikshak.AI/assets/docs/project_presentation.jpeg"><b>📊 Pitch Deck</b></a> •
     <a href="https://github.com/Atoleanantha/SIH_Shuddhi_Netra.git"><b>💻 Source Code</b></a>
   </p>
 
@@ -133,9 +133,9 @@ ShudhiNetra-Nirikshak/
 
 | Document | Description | View / Download |
 | :--- | :--- | :---: |
-| **📊 Final Presentation** | Complete project pitch deck highlighting solution & impact. | [Download PPT](assets/docs/project_presentation.jpeg) |
-| **� Project Report** | Detailed technical documentation and implementation guide. | [View PDF](assets/docs/project_report.pdf) |
-| **📉 Survey Report** | Analysis of survey findings and site visit data. | [View PDF](assets/docs/survey_and_visit_report.pdf) |
+| **📊 Final Presentation** | Complete project pitch deck highlighting solution & impact. | [Download PPT](ShudhiNetra%20Nirikshak.AI/assets/docs/project_presentation.jpeg) |
+| **� Project Report** | Detailed technical documentation and implementation guide. | [View PDF](ShudhiNetra%20Nirikshak.AI/assets/docs/project_report.pdf) |
+| **📉 Survey Report** | Analysis of survey findings and site visit data. | [View PDF](ShudhiNetra%20Nirikshak.AI/assets/docs/survey_and_visit_report.pdf) |
 
 ---
 
@@ -145,11 +145,11 @@ ShudhiNetra-Nirikshak/
   <table>
     <tr>
       <td align="center">
-        <img src="assets/certificates/certificate_1.jpeg" width="400" alt="Certificate 1"><br>
+        <img src="ShudhiNetra%20Nirikshak.AI/assets/certificates/certificate_1.jpeg" width="400" alt="Certificate 1"><br>
         <b>🥇 Achievement Certificate</b>
       </td>
       <td align="center">
-        <img src="assets/certificates/certificate_2.jpeg" width="400" alt="Certificate 2"><br>
+        <img src="ShudhiNetra%20Nirikshak.AI/assets/certificates/certificate_2.jpeg" width="400" alt="Certificate 2"><br>
         <b>🥈 Participation Certificate</b>
       </td>
     </tr>
@@ -161,7 +161,7 @@ ShudhiNetra-Nirikshak/
 ## 👥 Team Terminators
 
 <div align="center">
-  <img src="assets/team/team_photo.jpeg" width="800" alt="Team Terminators Group Photo" style="border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+  <img src="ShudhiNetra%20Nirikshak.AI/assets/team/team_photo.jpeg" width="800" alt="Team Terminators Group Photo" style="border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
   <br/><br/>
   
   ### 🏫 Amrutvahini College of Engineering, Sangamner
@@ -169,34 +169,34 @@ ShudhiNetra-Nirikshak/
   <table>
     <tr>
       <td align="center">
-        <img src="assets/members/Narendra.jpg" width="100" style="border-radius: 50%;"><br>
+        <img src="ShudhiNetra%20Nirikshak.AI/assets/members/Narendra.jpeg" width="100" style="border-radius: 50%;"><br>
         <b>Narendra Wakhare</b><br>
         <i>Team Lead</i>
       </td>
       <td align="center">
-        <img src="assets/members/Ananta.jpg" width="100" style="border-radius: 50%;"><br>
+        <img src="ShudhiNetra%20Nirikshak.AI/assets/members/Ananta.jpeg" width="100" style="border-radius: 50%;"><br>
         <b>Ananta Atole</b><br>
         <i>Full Stack Developer</i>
       </td>
        <td align="center">
-        <img src="assets/members/Tushar.jpg" width="100" style="border-radius: 50%;"><br>
+        <img src="ShudhiNetra%20Nirikshak.AI/assets/members/Tushar.jpeg" width="100" style="border-radius: 50%;"><br>
         <b>Tushar Bendre</b><br>
         <i>Backend Developer</i>
       </td>
     </tr>
      <tr>
       <td align="center">
-        <img src="assets/members/Hrishikesh.jpg" width="100" style="border-radius: 50%;"><br>
+        <img src="ShudhiNetra%20Nirikshak.AI/assets/members/Hrishikesh.jpeg" width="100" style="border-radius: 50%;"><br>
         <b>Hrishikesh Gurap</b><br>
         <i>Frontend Developer</i>
       </td>
       <td align="center">
-        <img src="assets/members/Yash.jpg" width="100" style="border-radius: 50%;"><br>
+        <img src="ShudhiNetra%20Nirikshak.AI/assets/members/Yash.jpeg" width="100" style="border-radius: 50%;"><br>
         <b>Yash Gorde</b><br>
         <i>Data Engineer</i>
       </td>
        <td align="center">
-        <img src="assets/members/Mayuri.jpg" width="100" style="border-radius: 50%;"><br>
+        <img src="ShudhiNetra%20Nirikshak.AI/assets/members/Mayuri.jpeg" width="100" style="border-radius: 50%;"><br>
         <b>Mayuri</b><br>
         <i>R&D and Documentation</i>
       </td>
