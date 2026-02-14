@@ -1,57 +1,79 @@
-# 🏆 ShuddhiNetra Nirikshak - AI-Driven Cleanliness Monitoring System
-### Team TERMINATORS | Smart India Hackathon 2024
+<div align="center">
 
-[![SIH 2024](https://img.shields.io/badge/SIH-2024-orange)](https://sih.gov.in)
-[![Team](https://img.shields.io/badge/Team-TERMINATORS-blue)](#)
-[![Problem Statement](https://img.shields.io/badge/Problem_Statement-SIH1751-green)](#)
+  <img src="assets/team/shuddhinetra_logo.jpeg" alt="ShuddhiNetra Logo" width="200" height="auto" />
+  <br/>
 
-**Problem Statement Title:** Dashboard for Swachhta and LiFE (Lifestyle for Environment)  
-**Theme:** Clean & Green Technology  
-**Result:** [Add Status, e.g., Finalist/Winner]
+  # 🏆 ShuddhiNetra Nirikshak
+  ### AI-Driven Cleanliness Monitoring System
+  
+  **Team TERMINATORS | Smart India Hackathon 2024**
+
+  [![SIH 2024](https://img.shields.io/badge/SIH-2024-orange?style=for-the-badge&logo=india)](https://sih.gov.in)
+  [![Team](https://img.shields.io/badge/Team-TERMINATORS-blue?style=for-the-badge&logo=github)](https://github.com/Atoleanantha)
+  [![Problem Statement](https://img.shields.io/badge/Problem_Statement-SIH1751-green?style=for-the-badge)](#)
+  [![Status](https://img.shields.io/badge/Status-Prototype-success?style=for-the-badge)](#)
+  [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+
+  <p>
+    <a href="https://shuddinetrasih1751.icipamrutvahini.in/"><b>🌐 Live Prototype</b></a> •
+    <a href="https://youtu.be/AvnI_TFHcHY?si=vH3_ij6yC5JE1xNs"><b>📺 Video Demo</b></a> •
+    <a href="assets/docs/presentation.pptx"><b>📊 Pitch Deck</b></a> •
+    <a href="https://github.com/Atoleanantha/SIH_Shuddhi_Netra.git"><b>💻 Source Code</b></a>
+  </p>
+
+</div>
+
+---
+
+## 📖 Table of Contents
+- [🚀 Project Overview](#-project-overview)
+- [✨ Key Features](#-key-features)
+- [🛠️ Technology Stack](#-technology-stack)
+- [🏗️ System Architecture](#-system-architecture)
+- [📂 Project Structure](#-project-structure)
+- [📑 Documents & Reports](#-documents--reports)
+- [🏅 Certificates & Achievements](#-certificates--achievements)
+- [👥 Team Terminators](#-team-terminators)
+- [⚙️ Installation & Setup](#-installation--setup)
 
 ---
 
 ## 🚀 Project Overview
 
-**ShuddhiNetra Nirikshak** is an AI-powered surveillance and monitoring system designed for the **Department of Posts** to automate the monitoring of cleanliness (Swachhta) and environmental practices (LiFE). 
+**ShuddhiNetra Nirikshak** is a cutting-edge **AI-powered surveillance system** engineered for the **Department of Posts** to revolutionize Swachhta (cleanliness) and LiFE (Lifestyle for Environment) monitoring.
 
-Using existing CCTV infrastructure, the system leverages **Computer Vision (YOLOv9)** to detect garbage, segregation non-compliance, and other anomalies in real-time. It provides a centralized dashboard for divisional officers to monitor multiple post offices, trigger alerts, and generate actionable analytics for a cleaner and greener environment.
+Leveraging existing CCTV infrastructure, our system deploys **Computer Vision (YOLOv9)** to autonomously detect garbage, segregation violations, and environmental anomalies in real-time. It empowering Divisional Officers with a **centralized dashboard** to monitor compliance, trigger instant alerts, and generate data-driven insights for a cleaner, greener India.
 
-### 🔗 Key Links
-- **📺 Video Demo:** [Watch on YouTube](https://youtu.be/AvnI_TFHcHY?si=vH3_ij6yC5JE1xNs)
-- **🌐 Live Website:** [ShuddhiNetra Portal](https://shuddinetrasih1751.icipamrutvahini.in/)
-- **💻 GitHub Repo:** [View Source](https://github.com/Atoleanantha/SIH_Shuddhi_Netra.git)
+> **Problem Statement Title:** Dashboard for Swachhta and LiFE  
+> **Theme:** Clean & Green Technology
 
 ---
 
 ## ✨ Key Features
 
-### 🤖 AI-Powered Monitoring
-- **Real-time Garbage Detection:** Uses **YOLOv9** with strided inference to detect waste objects (plastic, paper, metal, etc.) from CCTV feeds.
-- **Tiny Object Detection:** Optimized for identifying small waste items often missed by standard models.
-- **Document Verification:** Integrates **ESRGAN** (Super Resolution) to enhance legibility of text/digits in low-res footage.
-
-### 📊 Interactive Dashboard
-- **Centralized View:** Single pane of glass for Divisional Officers to monitor all subordinate Post Offices.
-- **Geotagged Alerts:** Real-time visual alerts with timestamps and location data when cleanliness standards are violated.
-- **Waste Analytics:** Detailed reports on waste generation, segregation compliance, and "hotspot" analysis using **KNN & Chameleon Clustering**.
-
-### 📱 Smart Notifications
-- **Instant Alerts:** Cloud-based notifications (Firebase) sent to cleaning staff and administrators immediately upon detection.
-- **Route Optimization:** Uses **Google Maps API** and **OR-Tools** to suggest the most efficient waste collection routes for staff.
+| Feature | Description |
+| :--- | :--- |
+| **🤖 AI-Powered Detection** | Real-time identification of waste (plastic, paper, metal) using **YOLOv9** with strided inference. |
+| **🔍 Tiny Object Recon** | Optimized algorithms to detect small litter items often missed by standard surveillance models. |
+| **📄 Smart Doc Verification** | Integration of **ESRGAN** (Super Resolution) to clarify text/digits in low-resolution video feeds. |
+| **📊 Central Command** | A unified dashboard for Divisional Officers to monitor multiple Post Offices simultaneously. |
+| **📍 Geotagged Alerts** | Instant visual alerts with precise timestamps and location data for rapid response. |
+| **📈 Waste Analytics** | Comprehensive reports with "hotspot" analysis using **KNN & Chameleon Clustering**. |
+| **� Route Optimization** | AI-driven route planning using **Google Maps API** & **OR-Tools** for efficient waste collection. |
 
 ---
 
 ## 🛠️ Technology Stack
 
-| Component | Technologies |
-|-----------|--------------|
-| **Frontend** | React.js, Material UI, Folium (Maps), Recharts |
-| **Backend** | Django Rest Framework (DRF), Python |
-| **AI / ML** | YOLOv9, OpenCV, PyTorch, TensorFlow, ESRGAN |
-| **Database** | PostgreSQL / SQLite |
-| **Integrations** | Firebase (FCM), Google Maps API, O/R Tools |
-| **Deployment** | Vercel (Frontend), Render/AWS (Backend) |
+<div align="center">
+
+| **Frontend** | **Backend** | **AI / ML** | **Database & Cloud** |
+| :---: | :---: | :---: | :---: |
+| ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) | ![YOLOv9](https://img.shields.io/badge/YOLOv9-00FFFF?style=for-the-badge&logo=python&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) |
+| ![MUI](https://img.shields.io/badge/MUI-007FFF?style=for-the-badge&logo=mui&logoColor=white) | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) | ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) |
+| **Folium Maps** | **DRF** | **PyTorch** | **Google Maps API** |
+
+</div>
 
 ---
 
@@ -59,16 +81,27 @@ Using existing CCTV infrastructure, the system leverages **Computer Vision (YOLO
 
 ```mermaid
 graph TD
+    subgraph Input
     A[CCTV Camera Network] -->|Video Stream| B[Preprocessing Node]
-    B -->|Frames| C{AI Inference Engine}
-    C -->|Detect Garbage| D[YOLOv9 Model]
-    C -->|Enhance Text| E[ESRGAN Model]
-    D & E -->|Anomalies Detected| F[ backend API (Django)]
+    end
+    
+    subgraph "AI Inference Engine"
+    B -->|Frames| C{Analysis}
+    C -->|Object Detection| D[YOLOv9 Model]
+    C -->|Super Resolution| E[ESRGAN Model]
+    end
+    
+    subgraph "Backend Processing"
+    D & E -->|Anomalies| F[Django API]
     F -->|Store Data| G[(Database)]
-    F -->|Push Notification| H[Firebase Cloud Messaging]
+    F -->|Trigger| H[Notification Service]
+    end
+    
+    subgraph Output
     H -->|Alert| I[Cleaning Staff App]
-    F -->|Analytics API| J[Admin Dashboard (React)]
+    F -->|Analytics| J[Admin Dashboard]
     J -->|Visualize| K[3D Maps & Reports]
+    end
 ```
 
 ---
@@ -77,34 +110,111 @@ graph TD
 
 ```bash
 ShudhiNetra-Nirikshak/
-├── backend/                  # Django Backend
-│   ├── backend/              # Project Settings & Config
-│   ├── post_office/          # App: Manage PO & Divisions
-│   ├── users/                # App: User Roles (Divisional/Sub-divisional)
-│   ├── waste_management/     # App: E-waste, Paper waste APIs
-│   ├── manage.py             # Django Entry Point
-│   └── requirements.txt      # Python Dependencies
+├── backend/                  # Django Backend Logic
+│   ├── post_office/          # Office Management
+│   ├── waste_management/     # Waste Analytics APIs
+│   └── users/                # Auth & Role Management
 │
-├── frontend/                 # React Frontend
-│   ├── public/               # Static Assets
-│   ├── src/
-│   │   ├── components/       # Reusable UI Components
-│   │   ├── services/         # API Service Calls (Axios)
-│   │   ├── App.js            # Main Application Component
-│   │   └── index.js          # React Entry Point
-│   └── package.json          # Node Dependencies
+├── frontend/                 # React User Interface
+│   ├── src/components/       # UI Components
+│   └── src/services/         # API Integrations
 │
-└── README.md                 # Project Documentation
+├── assets/                   # Project Resources
+│   ├── team/                 # Team Photos & Logos
+│   ├── docs/                 # Reports & Presentations
+│   └── certificates/         # Achievements
+│
+└── README.md                 # Documentation (You are here!)
 ```
+
+---
+
+## 📑 Documents & Reports
+
+| Document | Description | View / Download |
+| :--- | :--- | :---: |
+| **📊 Final Presentation** | Complete project pitch deck highlighting solution & impact. | [Download PPT](assets/docs/project_presentation.jpeg) |
+| **� Project Report** | Detailed technical documentation and implementation guide. | [View PDF](assets/docs/project_report.pdf) |
+| **📉 Survey Report** | Analysis of survey findings and site visit data. | [View PDF](assets/docs/survey_and_visit_report.pdf) |
+
+---
+
+## 🏅 Certificates & Achievements
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="assets/certificates/certificate_1.jpeg" width="400" alt="Certificate 1"><br>
+        <b>🥇 Achievement Certificate</b>
+      </td>
+      <td align="center">
+        <img src="assets/certificates/certificate_2.jpeg" width="400" alt="Certificate 2"><br>
+        <b>🥈 Participation Certificate</b>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## 👥 Team Terminators
+
+<div align="center">
+  <img src="assets/team/team_photo.jpeg" width="800" alt="Team Terminators Group Photo" style="border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+  <br/><br/>
+  
+  ### 🏫 Amrutvahini College of Engineering, Sangamner
+  
+  <table>
+    <tr>
+      <td align="center">
+        <img src="assets/team/shuddhinetra_logo.jpeg" width="100" style="border-radius: 50%;"><br>
+        <b>Prathamsingh Patil</b><br>
+        <i>AI & Backend Lead</i>
+      </td>
+      <td align="center">
+        <img src="assets/team/terminators_logo.jpeg" width="100" style="border-radius: 50%;"><br>
+        <b>Narendra Wakhare</b><br>
+        <i>Frontend & DevOps Lead</i>
+      </td>
+       <td align="center">
+        <img src="https://via.placeholder.com/100" width="100" style="border-radius: 50%;"><br>
+        <b>Team Member 3</b><br>
+        <i>[Role]</i>
+      </td>
+    </tr>
+     <tr>
+      <td align="center">
+        <img src="https://via.placeholder.com/100" width="100" style="border-radius: 50%;"><br>
+        <b>Team Member 4</b><br>
+        <i>[Role]</i>
+      </td>
+      <td align="center">
+        <img src="https://via.placeholder.com/100" width="100" style="border-radius: 50%;"><br>
+        <b>Team Member 5</b><br>
+        <i>[Role]</i>
+      </td>
+       <td align="center">
+        <img src="https://via.placeholder.com/100" width="100" style="border-radius: 50%;"><br>
+        <b>Team Member 6</b><br>
+        <i>[Role]</i>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
 ## ⚙️ Installation & Setup
 
+<details>
+<summary><b>Click to expand Installation Guide</b></summary>
+
 ### Prerequisites
 - Node.js (v16+)
 - Python (v3.9+)
-- PostgreSQL (optional, can use SQLite for dev)
+- PostgreSQL (optional)
 
 ### 1. Clone the Repository
 ```bash
@@ -113,56 +223,22 @@ cd SIH_Shuddhi_Netra
 ```
 
 ### 2. Backend Setup
-Navigate to the backend directory and set up the Python environment.
-
 ```bash
 cd backend
-# Create virtual environment
 python -m venv env
-# Activate environment (Windows)
-.\env\Scripts\activate
-# Activate environment (Mac/Linux)
-source env/bin/activate
-
-# Install dependencies
+# Activate: .\env\Scripts\activate (Win) or source env/bin/activate (Mac/Linux)
 pip install -r requirements.txt
-# Note: If requirements.txt is minimal, ensure django, djangorestframework, django-cors-headers are installed.
-
-# Run Migrations
 python manage.py migrate
-
-# Start Server
 python manage.py runserver
 ```
-The backend API will run at `http://localhost:8000`.
 
 ### 3. Frontend Setup
-Open a new terminal and navigate to the frontend directory.
-
 ```bash
 cd frontend
-# Install dependencies
 npm install
-
-# Start React App
 npm start
 ```
-The application will open at `http://localhost:3000`.
-
----
-
-## 📸 Screenshots & Usage
-
-| **Dashboard View** | **Waste Analytics** |
-|:---:|:---:|
-| ![Dashboard](https://via.placeholder.com/400x200?text=Dashboard+Preview) | ![Analytics](https://via.placeholder.com/400x200?text=Analytics+Graph) |
-| *Real-time monitoring of Post Office ambiance* | *Weekly waste generation reports* |
-
----
-
-## 👥 Team Terminators
-- **Problem Statement:** SIH1751
-- **College:** Amrutvahini College of Engineering, Sangamner
+</details>
 
 ---
 
